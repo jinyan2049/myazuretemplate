@@ -12,7 +12,7 @@
         "value": "uniqueDnsNameForPublicIP"
     },
     "location": {
-        "value": "West US"
+        "value": "East Asia"
     },
     "virtualNetworkName": {
         "value": "myVNET"
