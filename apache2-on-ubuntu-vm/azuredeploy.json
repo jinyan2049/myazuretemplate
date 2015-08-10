@@ -185,7 +185,7 @@
             "typeHandlerVersion": "1.2",
             "settings": {
                 "fileUris": [
-                    "https://raw.githubusercontent.com/myazuretemplate/master/apache2-on-ubuntu-vm/install_apache.sh"
+                    "https://raw.githubusercontent.com/jinyan2049/myazuretemplate/master/apache2-on-ubuntu-vm/install_apache.sh"
                 ],
                 "commandToExecute": "sh install_apache.sh"
             }
