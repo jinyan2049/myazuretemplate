@@ -215,7 +215,7 @@
                 "typeHandlerVersion": "1.2",
                 "settings": {
                     "fileUris": [
-                        "https://raw.githubusercontent.com/myazuretemplate/master/zabbix-server-centos-vm/zabbix-install-centos.sh"
+                        "https://raw.githubusercontent.com/jinyan2049/myazuretemplate/master/zabbix-server-centos-vm/zabbix-install-centos.sh"
                     ],
                     "commandToExecute": "sh zabbix-install-centos.sh"
                 }
