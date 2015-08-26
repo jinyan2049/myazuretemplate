@@ -53,14 +53,6 @@
         "vmSize": {
             "type": "string",
             "defaultValue": "Standard_A3"
-	    "allowedValues": [
-	    "Standard_A1",
-	    "Standard_A2",
-	    "Standard_A4"
-	    ],
-	    "metadata": {
-                "description": "Deployment Size"
-            }
         },
         "publicIPAddressName": {
             "type": "string",
