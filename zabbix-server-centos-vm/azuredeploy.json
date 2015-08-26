@@ -52,6 +52,7 @@
         "vmSize": {
             "type": "string",
             "defaultValue": "Standard_A0"
+	    "allowedValues": ["Standard_A3", "Standard_A4"],
         },
         "publicIPAddressName": {
             "type": "string",
