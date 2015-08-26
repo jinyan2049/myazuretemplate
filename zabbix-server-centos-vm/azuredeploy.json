@@ -37,7 +37,7 @@
         "imageSKU": {
             "type": "string",
             "defaultValue": "6.6",
-	    "allowedValues": ["6.5", "6.7"],
+	    "allowedValues": ["6.5", "6.6", "6.7"],
             "metadata": {
                 "description": "Image SKU"
             }
