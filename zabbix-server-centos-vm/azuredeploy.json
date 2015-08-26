@@ -37,6 +37,7 @@
         "imageSKU": {
             "type": "string",
             "defaultValue": "6.6",
+	    "allowedValues": ["6.5", "6.7"],
             "metadata": {
                 "description": "Image SKU"
             }
@@ -51,8 +52,12 @@
         },
         "vmSize": {
             "type": "string",
-            "defaultValue": "Standard_A0"
-	    "allowedValues": ["Standard_A3", "Standard_A4"],
+            "defaultValue": "Standard_A3"
+	    "allowedValues": [
+	    "Standard_A1",
+	    "Standard_A2",
+	    "Standard_A4"
+	    ],
 	    "metadata": {
                 "description": "Deployment Size"
             }
