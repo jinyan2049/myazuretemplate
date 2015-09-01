@@ -15,6 +15,12 @@ fi
 #Check zabbix server ip address
 IP=`ifconfig|sed -n 2p|awk '{print $2}'|cut -d ":" -f2`
 
+
+#Disable selinux
+sed -i s'/SELINUX=enforcing/SELINUX=disabled'/g /etc/selinux/config
+
+setenforce 0
+
 #Env
 yum -y install gcc gcc-c++ autoconf mysql-server mysql mysql-devel httpd php php-mysql php-gd php-bcmath php-xml php-pear php-xmlrpc php-mbstring php-bcmath php-snmp net-snmp-devel net-snmp net-snmp-utils OpenIPMI-devel curl-devel java-devel openldap-devel openldap wget unixODBC unixODBC-devel mysql-connector-odbc
 
